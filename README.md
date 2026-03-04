@@ -27,8 +27,9 @@ A proposta é servir como base técnica para estudos, evolução de boas prátic
 ---
 
 ## 4. Estrutura do Projeto
-cypress-automation/
-│
+
+A organização do projeto segue o padrão recomendado:
+```
 ├── cypress/
 │ ├── e2e/ # Casos de teste end-to-end
 │ ├── support/ # Comandos customizados e configurações auxiliares
@@ -36,11 +37,10 @@ cypress-automation/
 ├── cypress.config.js # Arquivo principal de configuração
 ├── package.json # Dependências e scripts de execução
 └── README.md
-
+```
 A organização do projeto segue o padrão recomendado pelo Cypress:
 
 A estrutura foi planejada para facilitar escalabilidade, manutenção e futura aplicação de padrões como Page Object Model (POM).
-
 
 ## 5. Instalação e Execução
 
