@@ -27,5 +27,37 @@ A proposta é servir como base técnica para estudos, evolução de boas prátic
 ---
 
 ## 4. Estrutura do Projeto
+cypress-automation/
+│
+├── cypress/
+│ ├── e2e/ # Casos de teste end-to-end
+│ ├── support/ # Comandos customizados e configurações auxiliares
+│
+├── cypress.config.js # Arquivo principal de configuração
+├── package.json # Dependências e scripts de execução
+└── README.md
 
 A organização do projeto segue o padrão recomendado pelo Cypress:
+
+A estrutura foi planejada para facilitar escalabilidade, manutenção e futura aplicação de padrões como Page Object Model (POM).
+
+
+## 5. Instalação e Execução
+
+### 5.1 Clonar o Repositório
+
+```bash
+git clone https://github.com/gustavlins/cypress-automation.git
+cd cypress-automation
+5.2 Instalar Dependências
+npm install
+5.3 Executar em Modo Interativo
+npx cypress open
+5.4 Executar em Modo Headless
+npx cypress run
+```
+### Finalidade
+Este repositório representa um estudo aplicado em automação de testes e pode ser utilizado como:
+Material de apoio para aprendizado de Cypress.
+Base para evolução em frameworks de automação.
+Demonstração prática de competências técnicas em Quality Assurance.
